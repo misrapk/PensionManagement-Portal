@@ -1,0 +1,72 @@
+﻿@model PensionManagementPortalAPP.Models.PensionerInput
+
+@{ ViewData["Title"] = "Pension Portal"; }
+
+<h1>Pension Portal</h1>
+<h4>Please Enter Valid Details</h4>
+<hr />
+<div class="row">
+	<div class="col-md-4">
+		<form asp-action="PensionPortal">
+			<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+			<div class="form-group">
+				<label asp-for="Name" class="control-label"></label>
+				
+				<input asp-for="Name" class="form-control" />
+				<span asp-validation-for="Name" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="DateOfBirth" class="control-label"></label>
+				<input asp-for="DateOfBirth" class="form-control" />
+				<span asp-validation-for="DateOfBirth" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="PAN" class="control-label"></label>
+				<input asp-for="PAN" class="form-control" />
+				<span asp-validation-for="PAN" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="AadharNumber" class="control-label"></label>
+				<input asp-for="AadharNumber" class="form-control" />
+				<span asp-validation-for="AadharNumber" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="PensionType" class="control-label"></label>
+				@Html.DropDownList("PensionType",
+					  new SelectList(Enum.GetValues(typeof(PensionManagementPortalAPP.Models.PensionTypeValue))),
+					  "Select Type", new { @class = "form-control" })
+				<span asp-validation-for="PensionType" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<input type="submit" value="Get Pension" class="btn btn-success" />
+			</div>
+		</form>
+	</div>
+</div>
+
+<div>
+	<a class="btn btn-outline-danger my-2 my-sm-0" asp-controller="Pension" asp-action="Login">Logout</a>
+</div>
+
+@if (ViewBag.notmatch != null)
+{
+<script type="text/javascript">
+
+        window.onload = function () {
+            alert("@ViewBag.notmatch");
+        }
+</script>
+}
+@if (ViewBag.erroroccured != null)
+{
+<script type="text/javascript">
+
+        window.onload = function () {
+            alert("@ViewBag.erroroccured");
+        }
+</script>
+}
+
+@section Scripts {
+	@{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

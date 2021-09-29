@@ -1,0 +1,527 @@
+INFO  10:45:11 Application started. Press Ctrl+C to shut down.
+INFO  10:45:12 Application started. Press Ctrl+C to shut down.
+INFO  10:45:12 Hosting environment: Development
+INFO  10:45:12 Hosting environment: Development
+INFO  10:45:12 Content root path: C:\Users\935345\OneDrive - Cognizant\Desktop\handson stage3\Final Project Pension\PensionerDetailAPI\PensionerDetailAPI
+INFO  10:45:12 Content root path: C:\Users\935345\OneDrive - Cognizant\Desktop\handson stage3\Final Project Pension\PensionerDetailAPI\PensionerDetailAPI
+INFO  10:46:06 Data is read from CSV file
+INFO  10:46:06 Pensioner details invoked by Aadhar Number!
+INFO  10:46:58 Data is read from CSV file
+INFO  10:46:58 Pensioner details invoked by Aadhar Number!
+INFO  01:01:34 Application started. Press Ctrl+C to shut down.
+INFO  01:01:34 Application started. Press Ctrl+C to shut down.
+INFO  01:01:34 Hosting environment: Development
+INFO  01:01:34 Hosting environment: Development
+INFO  01:01:34 Content root path: C:\Users\935345\OneDrive - Cognizant\Desktop\handson stage3\Final Project Pension\PensionerDetailAPI\PensionerDetailAPI
+INFO  01:01:34 Content root path: C:\Users\935345\OneDrive - Cognizant\Desktop\handson stage3\Final Project Pension\PensionerDetailAPI\PensionerDetailAPI
+INFO  01:03:02 Application started. Press Ctrl+C to shut down.
+INFO  01:03:02 Application started. Press Ctrl+C to shut down.
+INFO  01:03:02 Hosting environment: Development
+INFO  01:03:02 Hosting environment: Development
+INFO  01:03:02 Content root path: C:\Users\935345\OneDrive - Cognizant\Desktop\handson stage3\Final Project Pension\PensionerDetailAPI\PensionerDetailAPI
+INFO  01:03:02 Content root path: C:\Users\935345\OneDrive - Cognizant\Desktop\handson stage3\Final Project Pension\PensionerDetailAPI\PensionerDetailAPI
+ERROR 01:03:19 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'PensionerDetailAPI.Provider.IPensionerDetailProvider' while attempting to activate 'PensionerDetailAPI.Controllers.PensionerDetailController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 01:03:19 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'PensionerDetailAPI.Provider.IPensionerDetailProvider' while attempting to activate 'PensionerDetailAPI.Controllers.PensionerDetailController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 01:03:48 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'PensionerDetailAPI.Provider.IPensionerDetailProvider' while attempting to activate 'PensionerDetailAPI.Controllers.PensionerDetailController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 01:03:48 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'PensionerDetailAPI.Provider.IPensionerDetailProvider' while attempting to activate 'PensionerDetailAPI.Controllers.PensionerDetailController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 01:04:13 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'PensionerDetailAPI.Provider.IPensionerDetailProvider' while attempting to activate 'PensionerDetailAPI.Controllers.PensionerDetailController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 01:04:13 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'PensionerDetailAPI.Provider.IPensionerDetailProvider' while attempting to activate 'PensionerDetailAPI.Controllers.PensionerDetailController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  01:05:51 Application started. Press Ctrl+C to shut down.
+INFO  01:05:51 Application started. Press Ctrl+C to shut down.
+INFO  01:05:51 Hosting environment: Development
+INFO  01:05:51 Hosting environment: Development
+INFO  01:05:51 Content root path: C:\Users\935345\OneDrive - Cognizant\Desktop\handson stage3\Final Project Pension\PensionerDetailAPI\PensionerDetailAPI
+INFO  01:05:51 Content root path: C:\Users\935345\OneDrive - Cognizant\Desktop\handson stage3\Final Project Pension\PensionerDetailAPI\PensionerDetailAPI
+ERROR 01:05:52 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'PensionerDetailAPI.Provider.IPensionerDetailProvider' while attempting to activate 'PensionerDetailAPI.Controllers.PensionerDetailController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 01:05:52 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'PensionerDetailAPI.Provider.IPensionerDetailProvider' while attempting to activate 'PensionerDetailAPI.Controllers.PensionerDetailController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  01:08:39 Application started. Press Ctrl+C to shut down.
+INFO  01:08:39 Application started. Press Ctrl+C to shut down.
+INFO  01:08:39 Hosting environment: Development
+INFO  01:08:39 Hosting environment: Development
+INFO  01:08:39 Content root path: C:\Users\935345\OneDrive - Cognizant\Desktop\handson stage3\Final Project Pension\PensionerDetailAPI\PensionerDetailAPI
+INFO  01:08:39 Content root path: C:\Users\935345\OneDrive - Cognizant\Desktop\handson stage3\Final Project Pension\PensionerDetailAPI\PensionerDetailAPI
+ERROR 01:08:41 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'PensionerDetailAPI.Provider.IPensionerDetailProvider' while attempting to activate 'PensionerDetailAPI.Controllers.PensionerDetailController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 01:08:41 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'PensionerDetailAPI.Provider.IPensionerDetailProvider' while attempting to activate 'PensionerDetailAPI.Controllers.PensionerDetailController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 01:08:52 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'PensionerDetailAPI.Provider.IPensionerDetailProvider' while attempting to activate 'PensionerDetailAPI.Controllers.PensionerDetailController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 01:08:52 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'PensionerDetailAPI.Provider.IPensionerDetailProvider' while attempting to activate 'PensionerDetailAPI.Controllers.PensionerDetailController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  01:10:42 Application started. Press Ctrl+C to shut down.
+INFO  01:10:42 Application started. Press Ctrl+C to shut down.
+INFO  01:10:43 Hosting environment: Development
+INFO  01:10:43 Hosting environment: Development
+INFO  01:10:43 Content root path: C:\Users\935345\OneDrive - Cognizant\Desktop\handson stage3\Final Project Pension\PensionerDetailAPI\PensionerDetailAPI
+INFO  01:10:43 Content root path: C:\Users\935345\OneDrive - Cognizant\Desktop\handson stage3\Final Project Pension\PensionerDetailAPI\PensionerDetailAPI
+ERROR 01:10:56 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'PensionerDetailAPI.Provider.IPensionerDetailProvider' while attempting to activate 'PensionerDetailAPI.Controllers.PensionerDetailController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 01:10:56 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'PensionerDetailAPI.Provider.IPensionerDetailProvider' while attempting to activate 'PensionerDetailAPI.Controllers.PensionerDetailController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  01:15:32 Application started. Press Ctrl+C to shut down.
+INFO  01:15:32 Application started. Press Ctrl+C to shut down.
+INFO  01:15:33 Hosting environment: Development
+INFO  01:15:33 Hosting environment: Development
+INFO  01:15:33 Content root path: C:\Users\935345\OneDrive - Cognizant\Desktop\handson stage3\Final Project Pension\PensionerDetailAPI\PensionerDetailAPI
+INFO  01:15:33 Content root path: C:\Users\935345\OneDrive - Cognizant\Desktop\handson stage3\Final Project Pension\PensionerDetailAPI\PensionerDetailAPI
+ERROR 01:15:45 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'PensionerDetailAPI.Provider.IPensionerDetailProvider' while attempting to activate 'PensionerDetailAPI.Controllers.PensionerDetailController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 01:15:45 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'PensionerDetailAPI.Provider.IPensionerDetailProvider' while attempting to activate 'PensionerDetailAPI.Controllers.PensionerDetailController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  02:35:57 Application started. Press Ctrl+C to shut down.
+INFO  02:35:57 Application started. Press Ctrl+C to shut down.
+INFO  02:35:57 Hosting environment: Development
+INFO  02:35:57 Hosting environment: Development
+INFO  02:35:57 Content root path: C:\Users\935345\OneDrive - Cognizant\Desktop\handson stage3\Final Project Pension\PensionerDetailAPI\PensionerDetailAPI
+INFO  02:35:57 Content root path: C:\Users\935345\OneDrive - Cognizant\Desktop\handson stage3\Final Project Pension\PensionerDetailAPI\PensionerDetailAPI
+ERROR 02:36:31 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'PensionerDetailAPI.Provider.IPensionerDetailProvider' while attempting to activate 'PensionerDetailAPI.Controllers.PensionerDetailController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 02:36:31 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'PensionerDetailAPI.Provider.IPensionerDetailProvider' while attempting to activate 'PensionerDetailAPI.Controllers.PensionerDetailController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  02:43:53 Application started. Press Ctrl+C to shut down.
+INFO  02:43:53 Application started. Press Ctrl+C to shut down.
+INFO  02:43:53 Hosting environment: Development
+INFO  02:43:53 Hosting environment: Development
+INFO  02:43:54 Content root path: C:\Users\935345\OneDrive - Cognizant\Desktop\handson stage3\Final Project Pension\PensionerDetailAPI\PensionerDetailAPI
+INFO  02:43:54 Content root path: C:\Users\935345\OneDrive - Cognizant\Desktop\handson stage3\Final Project Pension\PensionerDetailAPI\PensionerDetailAPI
+ERROR 02:44:14 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'PensionerDetailAPI.Provider.IPensionerDetailProvider' while attempting to activate 'PensionerDetailAPI.Controllers.PensionerDetailController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 02:44:14 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'PensionerDetailAPI.Provider.IPensionerDetailProvider' while attempting to activate 'PensionerDetailAPI.Controllers.PensionerDetailController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  02:47:02 Application started. Press Ctrl+C to shut down.
+INFO  02:47:02 Application started. Press Ctrl+C to shut down.
+INFO  02:47:02 Hosting environment: Development
+INFO  02:47:02 Hosting environment: Development
+INFO  02:47:02 Content root path: C:\Users\935345\OneDrive - Cognizant\Desktop\handson stage3\Final Project Pension\PensionerDetailAPI\PensionerDetailAPI
+INFO  02:47:02 Content root path: C:\Users\935345\OneDrive - Cognizant\Desktop\handson stage3\Final Project Pension\PensionerDetailAPI\PensionerDetailAPI
+INFO  02:47:31 Data is read from CSV file
+INFO  02:48:43 Pensioner details invoked by Aadhar Number!
+INFO  02:49:02 Data is read from CSV file
+INFO  02:49:36 Application started. Press Ctrl+C to shut down.
+INFO  02:49:36 Application started. Press Ctrl+C to shut down.
+INFO  02:49:36 Hosting environment: Development
+INFO  02:49:36 Hosting environment: Development
+INFO  02:49:36 Content root path: C:\Users\935345\OneDrive - Cognizant\Desktop\handson stage3\Final Project Pension\PensionerDetailAPI\PensionerDetailAPI
+INFO  02:49:36 Content root path: C:\Users\935345\OneDrive - Cognizant\Desktop\handson stage3\Final Project Pension\PensionerDetailAPI\PensionerDetailAPI
+INFO  02:49:57 Data is read from CSV file
+INFO  02:49:57 Pensioner details invoked by Aadhar Number!
+INFO  02:50:20 Application started. Press Ctrl+C to shut down.
+INFO  02:50:20 Application started. Press Ctrl+C to shut down.
+INFO  02:50:20 Hosting environment: Development
+INFO  02:50:20 Hosting environment: Development
+INFO  02:50:20 Content root path: C:\Users\935345\OneDrive - Cognizant\Desktop\handson stage3\Final Project Pension\PensionerDetailAPI\PensionerDetailAPI
+INFO  02:50:20 Content root path: C:\Users\935345\OneDrive - Cognizant\Desktop\handson stage3\Final Project Pension\PensionerDetailAPI\PensionerDetailAPI
+INFO  02:50:26 Data is read from CSV file
+INFO  02:50:26 Pensioner details invoked by Aadhar Number!
+INFO  02:50:43 Data is read from CSV file
+INFO  02:50:43 Pensioner details invoked by Aadhar Number!
+INFO  02:25:57 Now listening on: https://localhost:5001
+INFO  02:25:57 Now listening on: https://localhost:5001
+INFO  02:25:57 Now listening on: http://localhost:5000
+INFO  02:25:57 Now listening on: http://localhost:5000
+INFO  02:25:57 Application started. Press Ctrl+C to shut down.
+INFO  02:25:57 Application started. Press Ctrl+C to shut down.
+INFO  02:25:57 Hosting environment: Development
+INFO  02:25:57 Hosting environment: Development
+INFO  02:25:57 Content root path: C:\Users\935345\OneDrive - Cognizant\Desktop\handson stage3\Pension Management Final Project\PensionerDetailAPI\PensionerDetailAPI
+INFO  02:25:57 Content root path: C:\Users\935345\OneDrive - Cognizant\Desktop\handson stage3\Pension Management Final Project\PensionerDetailAPI\PensionerDetailAPI
+INFO  02:26:11 Checking Data in the record
+INFO  02:26:11 Showing details based on Aadhar number
+INFO  03:01:05 Now listening on: https://localhost:5001
+INFO  03:01:05 Now listening on: https://localhost:5001
+INFO  03:01:05 Now listening on: http://localhost:5000
+INFO  03:01:05 Now listening on: http://localhost:5000
+INFO  03:01:05 Application started. Press Ctrl+C to shut down.
+INFO  03:01:05 Application started. Press Ctrl+C to shut down.
+INFO  03:01:05 Hosting environment: Development
+INFO  03:01:05 Hosting environment: Development
+INFO  03:01:05 Content root path: C:\Users\935345\OneDrive - Cognizant\Desktop\handson stage3\Pension Management Final Project\PensionerDetailAPI\PensionerDetailAPI
+INFO  03:01:05 Content root path: C:\Users\935345\OneDrive - Cognizant\Desktop\handson stage3\Pension Management Final Project\PensionerDetailAPI\PensionerDetailAPI
+INFO  03:04:20 Now listening on: https://localhost:5001
+INFO  03:04:20 Now listening on: https://localhost:5001
+INFO  03:04:20 Now listening on: http://localhost:5000
+INFO  03:04:20 Now listening on: http://localhost:5000
+INFO  03:04:20 Application started. Press Ctrl+C to shut down.
+INFO  03:04:20 Application started. Press Ctrl+C to shut down.
+INFO  03:04:20 Hosting environment: Development
+INFO  03:04:20 Hosting environment: Development
+INFO  03:04:20 Content root path: C:\Users\935345\OneDrive - Cognizant\Desktop\handson stage3\Pension Management Final Project\PensionerDetailAPI\PensionerDetailAPI
+INFO  03:04:20 Content root path: C:\Users\935345\OneDrive - Cognizant\Desktop\handson stage3\Pension Management Final Project\PensionerDetailAPI\PensionerDetailAPI
+INFO  03:04:41 Checking Data in the record
+INFO  03:04:41 Showing details based on Aadhar number
+INFO  10:11:31 Now listening on: https://localhost:5001
+INFO  10:11:31 Now listening on: https://localhost:5001
+INFO  10:11:31 Now listening on: http://localhost:5000
+INFO  10:11:31 Now listening on: http://localhost:5000
+INFO  10:11:31 Application started. Press Ctrl+C to shut down.
+INFO  10:11:31 Application started. Press Ctrl+C to shut down.
+INFO  10:11:31 Hosting environment: Development
+INFO  10:11:31 Hosting environment: Development
+INFO  10:11:31 Content root path: C:\Users\935345\OneDrive - Cognizant\Desktop\handson stage3\Pension Management Final Project\PensionerDetailAPI\PensionerDetailAPI
+INFO  10:11:31 Content root path: C:\Users\935345\OneDrive - Cognizant\Desktop\handson stage3\Pension Management Final Project\PensionerDetailAPI\PensionerDetailAPI
+INFO  10:11:46 Checking Data in the record
+INFO  10:11:46 Showing details based on Aadhar number
+INFO  10:13:18 Now listening on: https://localhost:5001
+INFO  10:13:18 Now listening on: https://localhost:5001
+INFO  10:13:18 Now listening on: http://localhost:5000
+INFO  10:13:18 Now listening on: http://localhost:5000
+INFO  10:13:18 Application started. Press Ctrl+C to shut down.
+INFO  10:13:18 Application started. Press Ctrl+C to shut down.
+INFO  10:13:18 Hosting environment: Development
+INFO  10:13:18 Hosting environment: Development
+INFO  10:13:18 Content root path: C:\Users\935345\OneDrive - Cognizant\Desktop\handson stage3\Pension Management Final Project\PensionerDetailAPI\PensionerDetailAPI
+INFO  10:13:18 Content root path: C:\Users\935345\OneDrive - Cognizant\Desktop\handson stage3\Pension Management Final Project\PensionerDetailAPI\PensionerDetailAPI
+INFO  10:13:39 Checking Data in the record
+INFO  10:13:39 Showing details based on Aadhar number
+INFO  10:21:40 Now listening on: https://localhost:5001
+INFO  10:21:40 Now listening on: https://localhost:5001
+INFO  10:21:40 Now listening on: http://localhost:5000
+INFO  10:21:40 Now listening on: http://localhost:5000
+INFO  10:21:40 Application started. Press Ctrl+C to shut down.
+INFO  10:21:40 Application started. Press Ctrl+C to shut down.
+INFO  10:21:40 Hosting environment: Development
+INFO  10:21:40 Hosting environment: Development
+INFO  10:21:40 Content root path: C:\Users\935345\OneDrive - Cognizant\Desktop\handson stage3\Pension Management Final Project\PensionerDetailAPI\PensionerDetailAPI
+INFO  10:21:40 Content root path: C:\Users\935345\OneDrive - Cognizant\Desktop\handson stage3\Pension Management Final Project\PensionerDetailAPI\PensionerDetailAPI
+INFO  10:21:53 Checking Data in the record
+INFO  10:21:53 Showing details based on Aadhar number
+INFO  10:24:48 Checking Data in the record
+INFO  10:24:48 Showing details based on Aadhar number
+INFO  10:26:09 Checking Data in the record
+INFO  10:26:09 Showing details based on Aadhar number
+INFO  10:26:10 Checking Data in the record
+INFO  10:26:10 Showing details based on Aadhar number
+INFO  11:18:13 Now listening on: https://localhost:5001
+INFO  11:18:13 Now listening on: https://localhost:5001
+INFO  11:18:13 Now listening on: http://localhost:5000
+INFO  11:18:13 Now listening on: http://localhost:5000
+INFO  11:18:13 Application started. Press Ctrl+C to shut down.
+INFO  11:18:13 Application started. Press Ctrl+C to shut down.
+INFO  11:18:13 Hosting environment: Development
+INFO  11:18:13 Hosting environment: Development
+INFO  11:18:13 Content root path: C:\Users\935345\OneDrive - Cognizant\Desktop\handson stage3\Pension Management Final Project\PensionerDetailAPI\PensionerDetailAPI
+INFO  11:18:13 Content root path: C:\Users\935345\OneDrive - Cognizant\Desktop\handson stage3\Pension Management Final Project\PensionerDetailAPI\PensionerDetailAPI
+INFO  11:19:55 Checking Data in the record
+INFO  11:19:55 Showing details based on Aadhar number
+INFO  11:20:25 Checking Data in the record
+INFO  11:20:25 Showing details based on Aadhar number
+INFO  11:21:52 Checking Data in the record
+INFO  11:21:52 Showing details based on Aadhar number
+INFO  11:23:00 Checking Data in the record
+INFO  11:23:00 Showing details based on Aadhar number
+INFO  11:26:43 Now listening on: https://localhost:5001
+INFO  11:26:43 Now listening on: https://localhost:5001
+INFO  11:26:43 Now listening on: http://localhost:5000
+INFO  11:26:43 Now listening on: http://localhost:5000
+INFO  11:26:43 Application started. Press Ctrl+C to shut down.
+INFO  11:26:43 Application started. Press Ctrl+C to shut down.
+INFO  11:26:43 Hosting environment: Development
+INFO  11:26:43 Hosting environment: Development
+INFO  11:26:43 Content root path: C:\Users\935345\OneDrive - Cognizant\Desktop\handson stage3\Pension Management Final Project\PensionerDetailAPI\PensionerDetailAPI
+INFO  11:26:43 Content root path: C:\Users\935345\OneDrive - Cognizant\Desktop\handson stage3\Pension Management Final Project\PensionerDetailAPI\PensionerDetailAPI
+INFO  11:27:44 Checking Data in the record
+INFO  11:27:44 Showing details based on Aadhar number
+INFO  11:28:25 Checking Data in the record
+INFO  11:28:25 Showing details based on Aadhar number
+INFO  11:29:11 Checking Data in the record
+INFO  11:29:11 Showing details based on Aadhar number
+INFO  11:33:03 Checking Data in the record
+INFO  11:33:03 Showing details based on Aadhar number
+INFO  11:33:12 Checking Data in the record
+INFO  11:33:12 Showing details based on Aadhar number
+INFO  11:35:36 Checking Data in the record
+INFO  11:35:36 Showing details based on Aadhar number
+INFO  11:36:14 Checking Data in the record
+INFO  11:36:14 Showing details based on Aadhar number
+INFO  11:44:36 Checking Data in the record
+INFO  11:44:36 Showing details based on Aadhar number
+INFO  11:45:04 Checking Data in the record
+INFO  11:45:04 Showing details based on Aadhar number

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PenionDisbursementAPI", "PenionDisbursementAPI.csproj", "{0137A7A1-9DDB-4D3E-BDD6-9AC51551FB2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisbursemetnUnitTest", "..\DisbursemetnUnitTest\DisbursemetnUnitTest.csproj", "{79ED153F-B3F8-4E96-AAF7-72A5E77AE491}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0137A7A1-9DDB-4D3E-BDD6-9AC51551FB2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0137A7A1-9DDB-4D3E-BDD6-9AC51551FB2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0137A7A1-9DDB-4D3E-BDD6-9AC51551FB2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0137A7A1-9DDB-4D3E-BDD6-9AC51551FB2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79ED153F-B3F8-4E96-AAF7-72A5E77AE491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79ED153F-B3F8-4E96-AAF7-72A5E77AE491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79ED153F-B3F8-4E96-AAF7-72A5E77AE491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79ED153F-B3F8-4E96-AAF7-72A5E77AE491}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98A57B4E-3D5A-4DAF-BFDC-4310038B24B3}
+	EndGlobalSection
+EndGlobal

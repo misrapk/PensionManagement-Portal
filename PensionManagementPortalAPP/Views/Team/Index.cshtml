@@ -1,0 +1,29 @@
+﻿@model IEnumerable<PensionManagementPortalAPP.Models.Team>
+
+@{
+	ViewBag.Title = "Employee List";
+}
+
+<br />
+<br />
+
+<div class="text-center">
+	<h1>DEVELOPER TEAM</h1>
+</div>
+<br />
+<br />
+<div class="card-deck">
+	@foreach (var employee in Model)
+	{
+		<div class="card m-3">
+			<div class="card-header text-center text-capitalize">
+				<h4>@employee.EmployeeName</h4>
+			</div>
+			<img class="card-img-top" src="~/Images/user.jpg" />
+			<div class="card-footer text-center">
+				<h5>@employee.EmployeeID</h5>
+				<h6>@employee.Designation</h6>
+			</div>
+		</div>
+	}
+</div>

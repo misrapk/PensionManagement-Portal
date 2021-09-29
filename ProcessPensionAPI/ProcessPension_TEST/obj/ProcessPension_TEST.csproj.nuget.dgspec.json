@@ -1,0 +1,181 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\935345\\OneDrive - Cognizant\\Desktop\\handson stage3\\Pension Management Final Project\\ProcessPensionAPI\\ProcessPension_TEST\\ProcessPension_TEST.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\935345\\OneDrive - Cognizant\\Desktop\\handson stage3\\Pension Management Final Project\\ProcessPensionAPI\\ProcessPension_API\\ProcessPension_API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\935345\\OneDrive - Cognizant\\Desktop\\handson stage3\\Pension Management Final Project\\ProcessPensionAPI\\ProcessPension_API\\ProcessPension_API.csproj",
+        "projectName": "ProcessPension_API",
+        "projectPath": "C:\\Users\\935345\\OneDrive - Cognizant\\Desktop\\handson stage3\\Pension Management Final Project\\ProcessPensionAPI\\ProcessPension_API\\ProcessPension_API.csproj",
+        "packagesPath": "C:\\Users\\935345\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\935345\\OneDrive - Cognizant\\Desktop\\handson stage3\\Pension Management Final Project\\ProcessPensionAPI\\ProcessPension_API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\935345\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoWrapper.Core": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.11.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\935345\\OneDrive - Cognizant\\Desktop\\handson stage3\\Pension Management Final Project\\ProcessPensionAPI\\ProcessPension_TEST\\ProcessPension_TEST.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\935345\\OneDrive - Cognizant\\Desktop\\handson stage3\\Pension Management Final Project\\ProcessPensionAPI\\ProcessPension_TEST\\ProcessPension_TEST.csproj",
+        "projectName": "ProcessPension_TEST",
+        "projectPath": "C:\\Users\\935345\\OneDrive - Cognizant\\Desktop\\handson stage3\\Pension Management Final Project\\ProcessPensionAPI\\ProcessPension_TEST\\ProcessPension_TEST.csproj",
+        "packagesPath": "C:\\Users\\935345\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\935345\\OneDrive - Cognizant\\Desktop\\handson stage3\\Pension Management Final Project\\ProcessPensionAPI\\ProcessPension_TEST\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\935345\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\935345\\OneDrive - Cognizant\\Desktop\\handson stage3\\Pension Management Final Project\\ProcessPensionAPI\\ProcessPension_API\\ProcessPension_API.csproj": {
+                "projectPath": "C:\\Users\\935345\\OneDrive - Cognizant\\Desktop\\handson stage3\\Pension Management Final Project\\ProcessPensionAPI\\ProcessPension_API\\ProcessPension_API.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
